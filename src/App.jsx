@@ -6,9 +6,12 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/Login" element={<LoginPage /> } />
       </Routes>
     </BrowserRouter>
   );
+
+
 }
 
 
