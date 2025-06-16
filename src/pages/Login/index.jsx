@@ -4,15 +4,30 @@ export const LoginPage = () => {
             <h1>Ecos do Passado</h1>
 
             <img src='\logo192.png' width={200} height={200} />
+            <div className="w-full max-w-lg flex items-center justify-center">
 
-            <div></div>
-            <section></section>
-            <article></article>
+                <form className="w-full flex max-w-xs flex-col gap-4">
+                    <fieldset className="flex flex-col w-full gap-2">
+                        <label htmlFor="title">Login</label>
+                        <input type="text" id="title"  className="border p-2 rounded-lg" />
+                    </fieldset>
 
-            <h2>Seja bem vindo ao nosso site</h2>
-            <h5></h5>
-            <p></p>
-            <span></span>
+         <form className="w-full flex max-w-xs flex-col gap-4"> </form>
+                    <fieldset >
+                        <label htmlFor="description">Senha</label>
+                        <input type="text" id="description" />
+                    </fieldset>
+
+                    <button type="submit">Entrar</button>
+
+                </form>
+            </div>
+            <section className="">
+                <h2>Seja bem vindo ao nosso site!</h2>
+                <ul>
+                </ul>
+            </section>
         </div>
+
     )
 }
